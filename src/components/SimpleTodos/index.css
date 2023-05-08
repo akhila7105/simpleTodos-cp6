@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc2a0;
+  padding: 29px;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 24px;
+  min-height: 80vh;
+  margin-top: 76px;
+  margin-bottom: 46px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+.unordered-item {
+  list-style-type: none;
+  padding-left: 0px;
+}
